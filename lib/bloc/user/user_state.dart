@@ -1,0 +1,1 @@
+// State: es el estado actualmente de nuestra app, nos dice por ej quien esta logueado, cuantos productos tengo, etc
