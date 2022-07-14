@@ -19,3 +19,10 @@ class UserInitialState extends UserState {
   // llamamos al contructor
   const UserInitialState () : super (existUser: false, user: null);
 }
+
+class UserSetState extends UserState {
+  final Usuario newUser;
+
+  // Tiene que llamar al padre para inicializar los valores respectivamente
+  const UserSetState(this.newUser) : super (existUser: true, user: newUser);
+}
